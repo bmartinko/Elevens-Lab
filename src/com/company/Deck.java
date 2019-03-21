@@ -29,6 +29,10 @@ public class Deck {
      */
     public Deck(String[] ranks, String[] suits, int[] values) {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+<<<<<<< HEAD
+        cards = new ArrayList<>();
+=======
+>>>>>>> origin/master
         for( int q = 0; q < suits.length; q++){
             for (int y = 0; y < ranks.length; y++){
                 Card boi = new Card(ranks[y], suits[q], values[y]);
@@ -53,7 +57,12 @@ public class Deck {
      */
     public int size() {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+<<<<<<< HEAD
+        size = cards.size();
+        return size;
+=======
         return cards.size();
+>>>>>>> origin/master
     }
 
     /**
@@ -71,7 +80,11 @@ public class Deck {
      */
     public Card deal() {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+<<<<<<< HEAD
+        return cards.get(cards.size() - 1);
+=======
     return cards.get(cards.size() - 1);
+>>>>>>> origin/master
     }
 
     /**
