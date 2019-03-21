@@ -8,5 +8,10 @@ public class DeckTester {
      */
     public static void main(String[] args) {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        String[] rankz = {"jack", "queen", "king"};
+        String[] suitz = {"blue", "red"};
+        int[] pointValuez = {11, 12, 13};
+        Deck d = new Deck(rankz, suitz, pointValuez);
+        System.out.println(d.toString());
     }
 }
