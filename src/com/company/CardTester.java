@@ -11,7 +11,7 @@ public class CardTester {
         Card a = new Card("10", "Spade", 10);
         Card b = new Card("Ace", "Club", 1);
         Card c = new Card("2", "Heart", 2);
-        //String s = a.rank();
-        System.out.println(a.rank());
+        String s = a.rank();
+        System.out.println(s);
     }
 }
