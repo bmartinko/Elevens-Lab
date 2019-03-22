@@ -52,7 +52,7 @@ public class Shuffler {
      * Apply a "perfect shuffle" to the argument.
      * The perfect shuffle algorithm splits the deck in half, then interleaves
      * the cards in one half with the cards in the other.
-     * @param values is an array of integers simulating cards to be shuffled.
+     * @param "values is an array of integers simulating cards to be shuffled.
      */
 
     public static String flip(){
